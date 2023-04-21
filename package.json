@@ -1,0 +1,11 @@
+{
+	"name": "wilson-chess",
+	"version": "1.0.0",
+	"description": "## Purpose This website is a tournament leaderboard, it lets students sign up for an account, login, report results and see statistics on their games. It officially serves Wilson Chess Club.",
+	"main": "index.js",
+	"scripts": {
+		"start": "cd backend && npm run start & cd frontend && npm run start & echo \"Backend and frontend started\""
+	},
+	"author": "Mohammad Anwar",
+	"license": "ISC"
+}

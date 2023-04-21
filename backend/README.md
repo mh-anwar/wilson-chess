@@ -1,3 +1,24 @@
-# Wilson Chess Server
+# [Wilson Chess Server](https://nanwar.ca)
 
-This is the server that hosts https://nanwar.ca and handles backend requests. It's also one of the first production backend's that I've written. This server serves the frontend `deploy/index.html`, it also controls authentication, account creation and leaderboard changes. It's made with Node.js, Express.js and deployed with Deta (Space).
+## Available Scripts
+In this project directory, you can run:
+### `space new`
+
+Instantiate your own Deta Space, visit the [Documentation](https://deta.space/docs/en/introduction/start) to get started and **install the CLI for this command to work**.
+### `space dev`
+
+Runs the app in production simulation mode (as if it were on the production server).
+Open [http://localhost:4200](http://localhost:4200) to view it in the browser.<br />
+
+This command will fail if `space new` is not used first, and a Deta space isn't created.
+### `npm start`
+
+Runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.<br />
+
+This command will fail if a project key is not defined, thus it is better to use `space dev`.
+
+
+
+### Note
+This repository requires a Project Key to instantiate Deta (where `process.env.DETA_PROJECT_KEY` is used), this can be obtained with your own [Deta Space](https://deta.space).
