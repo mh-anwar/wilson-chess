@@ -1,0 +1,50 @@
+body {
+    max-height: 100vh !important;
+}
+
+html {
+    height: 100vh !important;
+}
+
+#root {
+    height: 100vh !important;
+}
+
+.main {
+    padding: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.tableContainer {
+    padding: 1rem;
+    border: 10px solid transparent;
+    border-radius: 0.8rem;
+}
+
+.blur {
+    position: sticky;
+    top: 0;
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5em;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (min-width: 900px) {
+
+    .auth {
+        width: 70%;
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "short_name": "Wilson Chess",
+  "name": "Wilson Chess Club",
+  "scope": "/",
+  "start_url": ".",
+  "display": "fullscreen",
+  "theme_color": "#b3d2",
+  "background_color": "#13141d",
+  "color": "#F7FAFC",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "images/x-icon"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

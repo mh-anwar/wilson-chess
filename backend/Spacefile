@@ -1,0 +1,11 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: wilson-chess-server
+    src: .
+    engine: nodejs16
+    primary: true
+    public_routes:
+      - "/*"
+    dev: "nodemon index.js"
+    run: "node index.js"
