@@ -1,4 +1,4 @@
-# [Wilson Chess Leaderboard](https://nanwar.ca)
+# [Wilson Chess Leaderboard](https://chess.mohammadanwar.dev)
 
 ## Purpose
 This website is a tournament leaderboard, it lets students sign up for an account, login, report results and see statistics on their games. It officially serves Wilson Chess Club.
